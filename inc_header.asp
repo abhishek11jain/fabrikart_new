@@ -1,7 +1,5 @@
 <!-- Mobile Header Start -->
-<div class="off_canvars_overlay">
-                
-</div>
+<div class="off_canvars_overlay"> </div>
 <div class="Offcanvas_menu Offcanvas_two">
     <div class="container">
         <div class="row">
@@ -76,26 +74,34 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-10 col-md-7 col-6">
-                        <div class="middel_right">
+                    <div class="col-lg-10 col-md-7 col-12 pm-0">
+                        <div class="middel_right mmt-2">
                             
-                            <div class="search_btn mobail_none2">
+                            <div class="search_btn">
                                 <form action="#">
                                     <input placeholder="Search product..." type="text">
-                                    <button type="submit"><i class="ion-ios-search-strong"></i></button> 
+                                    <button type="submit">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </button> 
                                 </form>
                             </div>
 
                             <div class="cart_link">
-                                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                <a href="#">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                </a>
                             </div>
 
                             <div class="cart_link">
-                                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                <a href="#">
+                                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                </a>
                             </div>
 
                             <div class="cart_link">
-                                <a href="#"><i class="ion-android-cart"></i><span class="cart_text_quantity">Username Here</span></a>
+                                <a href="#">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                </a>
                             </div>
                         </div>
                     </div>

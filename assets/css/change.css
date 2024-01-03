@@ -1,0 +1,244 @@
+body,html{
+    font-family: 'Fira Sans', sans-serif !important;
+}
+header.header_area.header_two {
+    border-top: 3px solid #b47b00;
+}
+
+.header_two .logo {
+    top: 0;
+}
+
+.header_middel .cart_link a {
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+    padding: 11px;
+    background: #fff;
+    text-align: center;
+}
+
+.header_two .search_btn form input {
+    height: 40px;
+}
+
+.header_two .cart_link {
+    margin-left: 8px;
+}
+
+.header_two .search_btn {
+    margin-right: 0;
+}
+
+.search_btn.mobail_none2 {
+    display: block;
+}
+.Offcanvas_menu_wrapper{
+    padding: 20px;
+}
+.section_title h2,
+.section_title::before {
+    background: none !important;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}
+.widget_list h2{
+    font-size: 15px;
+    font-weight: 500;
+    color: #b47b00;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.sidebar_widget .accordion-button{
+    padding: 0 !important;
+    font-size: 13px !important;
+}
+.sidebar_widget .accordion-button:not(.collapsed),
+.accordion-button:focus {
+    color: #000;
+    background-color: #fff;
+    box-shadow: none;
+    border: 0;
+}
+.widget_list{
+    border-bottom: 0;
+}
+
+.product_content {
+    text-align: left;
+    padding: 10px 20px 30px;
+}
+
+.single_product:hover {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.slick-list {
+    margin-top: -10px !important;
+}
+
+.section_title {
+    margin-bottom: 27px;
+}
+
+.header_two .header_middel {
+    padding: 10px 0;
+}
+
+.home_banner_two {
+    margin-bottom: 0;
+}
+
+.header_bottom,
+.sticky-header.sticky {
+    background: rgb(180, 123, 0) !important;
+    background: linear-gradient(0deg, rgba(180, 123, 0, 1) 0%, rgba(245, 206, 122, 0.8151086118040967) 100%) !important;
+}
+
+.main_menu nav>ul>li.active>a {
+    color: #ffffff;
+}
+
+.tag_cate a {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.product_content h3 a {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.shop_toolbar{
+    display: block;
+}
+.single_product{
+    margin-bottom: 0;
+}
+/* Media Query Start */
+
+@media only screen and (max-width : 767px) {
+
+    .section_title h2, .section_title::before{
+        font-size: 15px;
+    }
+
+    .header_middel .cart_link a,
+    .header_two .search_btn form input {
+        border: none !important;
+        border-radius: 2px;
+        background: #ffffff63;
+        color: #000;
+    }
+
+    .header_middel .cart_link a {
+        height: 30px;
+        width: 30px;
+        font-size: 11px;
+        padding: 8px;
+    }
+
+    .header_two .search_btn form input {
+        height: 30px;
+    }
+
+    .header_two .search_btn {
+        width: 65%;
+    }
+
+    .header_two .search_btn .fa-search {
+        font-size: 11px;
+    }
+
+    .header_two .search_btn form button {
+        top: -3px;
+    }
+
+    .header_two .search_btn form input::placeholder {
+        color: #000;
+    }
+
+    .canvas_open a {
+        height: 35px;
+        background: rgb(180, 123, 0);
+        border: none;
+        color: #000 !important;
+        background: linear-gradient(0deg, rgba(180, 123, 0, 1) 0%, rgba(245, 206, 122, 0.8151086118040967) 100%);
+    }
+
+    .header_two .header_middel {
+        padding: 20px 0 2px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .middel_right {
+        background: rgb(180, 123, 0);
+        background: linear-gradient(0deg, rgba(180, 123, 0, 1) 0%, rgba(245, 206, 122, 0.8151086118040967) 100%);
+        padding: 5px 0;
+    }
+
+    .pm-0 {
+        padding: 0;
+    }
+
+    .mmt-2 {
+        margin-top: 20px;
+    }
+
+    .header_two .search_btn form {
+        width: auto !important;
+    }
+
+    .product_content {
+        padding: 0px 13px 10px;
+    }
+
+    .slick-list {
+        margin-top: -20px !important;
+    }
+
+    .tag_cate,
+    .product_content {
+        margin-bottom: 0 !important;
+    }
+
+    .tag_cate a {
+        font-size: 11px;
+    }
+
+    .product_content h3 a {
+        font-size: 13px;
+    }
+
+    .price_box .current_price {
+        font-size: 13px !important;
+    }
+
+    .price_box>span.old_price {
+        font-size: 12px;
+    }
+
+    .product_content h3 {
+        padding-bottom: 9px;
+        margin-bottom: 7px;
+    }
+    .breadcrumbs_area{
+        border-bottom: 1px solid #ebebeb;
+        padding: 0;
+    }
+    .breadcrumb_content{
+        border-top: 0;
+        padding: 20px 0 20px;
+    }
+}

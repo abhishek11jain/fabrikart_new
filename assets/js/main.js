@@ -85,7 +85,7 @@
     $('.product_row1').slick({
         centerMode: true,
         centerPadding: '0',
-        slidesToShow: 5,
+        slidesToShow: 4,
         arrows:true,
         prevArrow:'<button class="prev_arrow"><i class="fa fa-angle-left"></i></button>',
         nextArrow:'<button class="next_arrow"><i class="fa fa-angle-right"></i></button>', 
@@ -93,7 +93,7 @@
             {
               breakpoint: 480,
               settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                   slidesToScroll: 1,
               }
             },
@@ -115,7 +115,7 @@
               breakpoint: 1200,
               settings: {
                 slidesToShow: 4,
-                  slidesToScroll: 4,
+                  slidesToScroll: 1,
               }
             },
            
@@ -481,15 +481,6 @@
  
     
     /*---mini cart activation---*/
-    $('.cart_link > a').on('click', function(){
-        $('.mini_cart,.off_canvars_overlay').addClass('active')
-    });
-    
-    $('.mini_cart_close > a,.off_canvars_overlay').on('click', function(){
-        $('.mini_cart,.off_canvars_overlay').removeClass('active')
-    });
-    
-    
     
      /*---canvas menu activation---*/
     $('.canvas_open').on('click', function(){

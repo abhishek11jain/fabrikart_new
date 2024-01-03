@@ -1,39 +1,4 @@
-/*-----------------------------------------------------------------------------------
 
-    
-    CSS INDEX
-    =========================================
-    01. header css here
-    02. slider area css here
-    03. product section css here
-    04. banner section css here 
-    05. blog area css here
-    06. newsletter area css here
-    07. footer area css here
-    08. shop page css here
-    09. error page css heer 
-    10. about page css here
-    11. blog page css here 
-    12. blog details css here
-    13. cart page css here
-    14. checkout page css here
-    15. contact page css here
-    16. faq page css here
-    17. login page css here
-    18. my account css here
-    19. portfolio page css here
-    20. services page css here
-    21. shipping css here
-    22. wishlist css here
-    23. newsletter popup css here
-    24. modal css here
-    25. privacy-policy css here
-    26. compare css here
-    27. coming soon css here
-    
-    
-
------------------------------------------------------------------------------------*/
 @import url("../../../../css-1");
 * {
   box-sizing: border-box;
@@ -69,7 +34,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin-top: 0;
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 h1 {
@@ -441,7 +406,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /* 01. header css here*/
 .sticky-header.sticky {
   position: fixed;
-  z-index: 99;
+  z-index: 99999;
   width: 100%;
   top: 0;
   background: rgba(255, 255, 255, 0.9);
@@ -1464,7 +1429,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   color: #242424;
   text-transform: capitalize;
   font-size: 14px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 .cart_info a:hover {
   color: #c09578;
@@ -5199,7 +5164,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-transform: capitalize;
   font-weight: 700;
   display: inline-block;
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Sans', sans-serif;
   border-left: 2px solid #ebebeb;
   padding: 0 30px;
   border-radius: 2px;
@@ -5387,7 +5352,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .action_links ul li.add_to_cart a {
   line-height: 35px;
   padding: 0 18px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Sans', sans-serif;
   width: 100%;
   text-transform: capitalize;
   font-size: 12px;
@@ -7418,7 +7383,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   }
 }
 .shop_area .quick_button a {
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .shop_fullwidth {
@@ -8329,7 +8294,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-transform: capitalize;
   padding: 10px;
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 .table_desc .cart_page table tbody tr td {
   border-bottom: 1px solid #ebebeb;
@@ -8373,7 +8338,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .table_desc .cart_page table tbody tr td.product_quantity label {
   color: #242424;
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 700;
   margin-right: 5px;
 }
@@ -8751,7 +8716,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .checkout_form label {
   color: #242424;
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 700;
   margin-bottom: 7px;
 }
@@ -8847,7 +8812,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .order_table table thead tr th {
   color: #242424;
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Sans', sans-serif;
   min-width: 50%;
   text-align: center;
   padding: 15px 0;
@@ -8861,7 +8826,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .order_table table tfoot tr th {
   color: #242424;
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Sans', sans-serif;
   min-width: 50%;
   text-align: center;
   padding: 15px 0;
@@ -9231,7 +9196,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   text-align: left;
   color: #c09578;
   font-size: 14px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 700;
 }
 .card-header.card_accor button.btn-link.collapsed {
@@ -9339,7 +9304,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .table-responsive table thead tr th {
   text-align: center;
   color: #242424;
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 .table-responsive table tbody tr td {
   border-right: 1px solid #ebebeb;
@@ -9696,7 +9661,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-weight: 700;
   color: #242424;
   text-transform: uppercase;
-  font-family: "Playfair Display", serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 /*about page css end*/
