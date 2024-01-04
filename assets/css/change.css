@@ -151,6 +151,7 @@ header.header_area.header_two {
 .single_product {
     margin-bottom: 0;
 }
+
 .footer_middel_menu {
     border-bottom: 0;
     border-top: 3px solid;
@@ -184,9 +185,11 @@ header.header_area.header_two {
 .orderby_wrapper {
     flex-direction: unset;
 }
-.single-zoom-thumb{
+
+.single-zoom-thumb {
     width: 100%;
 }
+
 .filter-button li {
     height: 30px;
     width: 30px;
@@ -201,7 +204,7 @@ header.header_area.header_two {
     color: #fff;
 }
 
-.text-theme{
+.text-theme {
     color: #b47b00;
 }
 
@@ -211,36 +214,40 @@ header.header_area.header_two {
 
 
 .theme-button,
-.buttons .wishlist:hover{
+.buttons .wishlist:hover {
     background: #b47b00 !important;
     color: #fff !important;
 }
 
 .theme-button:hover,
-.buttons .wishlist{
+.buttons .wishlist {
     background: #fff !important;
     border: 1px solid #b47b00 !important;
     color: #b47b00 !important;
 }
 
-.sticky-top{
+.sticky-top {
     position: sticky !important;
     position: -webkit-sticky !important;
     top: 0 !important;
 }
-.fix-width{
+
+.fix-width {
     width: 35%;
 }
+
 .modal-dialog.modal-dialog-centered {
     min-width: 500px;
 }
-.size-quantity .form-control{
+
+.size-quantity .form-control {
     height: 35px;
     line-height: 35px !important;
     border-color: #dbdbdb !important;
 }
+
 .size-quantity b,
-.priduct_social b{
+.priduct_social b {
     font-size: 12px !important;
 }
 
@@ -249,18 +256,26 @@ header.header_area.header_two {
     border-bottom: 1px solid #ebebeb;
 }
 
+.account_form h1{
+    font-size: 20px  !important;
+    color: #b47b00;
+}
+
 /* Media Query Start */
 
 @media only screen and (max-width : 767px) {
-    .p-m-3{
+    .p-m-3 {
         padding: 30px;
     }
-    .modal-dialog.modal-dialog-centered{
+
+    .modal-dialog.modal-dialog-centered {
         min-width: auto;
     }
-    #SideBar{
+
+    #SideBar {
         display: none;
     }
+
     .section_title h2,
     .section_title::before {
         font-size: 15px;
@@ -270,9 +285,10 @@ header.header_area.header_two {
         width: 300px;
     }
 
-    .size-quantity .form-control{
+    .size-quantity .form-control {
         height: 30px;
     }
+
     .nice-select {
         font-size: 11px;
         padding-left: 7px;
@@ -283,7 +299,8 @@ header.header_area.header_two {
         height: 30px;
         line-height: 28px;
     }
-    .shop_area{
+
+    .shop_area {
         padding-top: 0 !important;
     }
 
@@ -410,7 +427,8 @@ header.header_area.header_two {
         border-top: 0;
         padding: 20px 0 20px;
     }
-    #SideBar{
+
+    #SideBar {
         position: fixed !important;
         width: 100%;
         left: 0;
@@ -419,12 +437,14 @@ header.header_area.header_two {
         overflow: auto;
         height: 100vh;
     }
-    .text-small{
+
+    .text-small {
         font-size: 12px !important;
     }
 }
-@media only screen and (min-width : 767px){
-    #SideBar{
+
+@media only screen and (min-width : 767px) {
+    #SideBar {
         display: block !important;
     }
 }
