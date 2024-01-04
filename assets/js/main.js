@@ -87,6 +87,8 @@
         centerPadding: '0',
         slidesToShow: 4,
         arrows:true,
+        autoplay : true,
+        autoplayTimeout: 3000,
         prevArrow:'<button class="prev_arrow"><i class="fa fa-angle-left"></i></button>',
         nextArrow:'<button class="next_arrow"><i class="fa fa-angle-right"></i></button>', 
         responsive:[
@@ -206,10 +208,10 @@
         autoplay: true,
 		loop: true,
         nav: true,
-        autoplay: false,
-        autoplayTimeout: 8000,
-        items: 4,
-        margin:15,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        items: 5,
+        margin:8,
         dots:false,
         navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
         responsiveClass:true,
@@ -218,13 +220,13 @@
 				items:1,
 			},
             320:{
-				items:2,
+				items:4,
 			},
             992:{
-				items:3,
+				items:4,
 			},
             1200:{
-				items:4,
+				items:5,
 			},
 
 
@@ -526,3 +528,32 @@
 	});
     
 })(jQuery);	
+
+
+// View More & Less
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  }
+
+//   Hide & show Sidebar
+$(document).ready(function()
+{
+    $("#CloseSidebar").click(function(){
+        $("#SideBar").hide();
+    });
+    $("#OpenSidebar").click(function(){
+        $("#SideBar").show();
+    });
+});
