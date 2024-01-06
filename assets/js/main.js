@@ -547,6 +547,7 @@ function myFunction() {
     }
   }
 
+  
 //   Hide & show Sidebar
 $(document).ready(function()
 {
