@@ -522,8 +522,8 @@
     
     /*js ripples activation*/
     $('.js-ripples').ripples({
-		resolution: 512,
-		dropRadius: 20,
+        resolution: 512,
+		dropRadius: 510,
 		perturbance: 0.04
 	});
     

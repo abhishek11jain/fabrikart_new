@@ -327,6 +327,39 @@ header.header_area.header_two {
     font-size: 100px !important;
 }
 
+.privacy_policy_main_area p{
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.privacy_policy_main_area .privacy_content{
+    margin-bottom: 40px;
+}
+.privacy_policy_main_area h3{
+    font-size: 18px;
+}
+.theme-text-2{
+    color: #b47b00;
+    font-size: 12px;
+}
+.coming_soon_area{
+    background-image: url(../img/background/thankyou.jpeg);
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    background: #00000077;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.coming_soon_container {
+    position: relative;
+    z-index: 999;
+}
 /* Media Query Start */
 
 @media only screen and (max-width : 767px) {
@@ -363,6 +396,10 @@ header.header_area.header_two {
         font-size: 11px;
         padding-left: 7px;
         padding-right: 26px;
+    }
+
+    .privacy_policy_main_area p{
+        font-size: 13px;
     }
 
     .niceselect_option {
